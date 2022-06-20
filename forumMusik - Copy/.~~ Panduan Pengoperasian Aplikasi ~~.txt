@@ -1,0 +1,26 @@
+1. Pertama, Open Folder dimana aplikasinya disimpan di Visual Studio Code / Sublime Text 
+   atau bisa lewat hosting : musiclistenerforum.host
+
+2. Sesuaikan .env dengan server phpMyAdmin di browser Anda
+   Contoh : 
+	DB_CONNECTION=mysql
+	DB_HOST=127.0.0.1
+	DB_PORT=3306
+	DB_DATABASE=forummusik
+	DB_USERNAME=root
+	DB_PASSWORD=
+
+3. Hubungkan Terminal(cmd) terlebih dahulu, dan change directory ke folder dimana folder aplikasinya dan input "php artisan serve"
+   Contoh : cd C:\xampp\htdocs\forumMusik
+            C:\xampp\htdocs\forumMusik php artisan serve
+            
+4. Kemudian buka terminal di Visual Studio Code lalu lakukan 'php artisan migrate' untuk migrasi table dari folder migration
+5. Setelah migration berhasil dilakukan, kemudian lakukan 'php artisan db:seed' untuk seeding data dari folder seeder
+6. Aplikasi sudah bisa dibuka di website, dengan url dari artisannya tadi contoh : 127.0.0.1:8000
+7. Kemudian, Anda segera Register terlebih dahulu untuk dapat menggunakan forum
+8. Lalu, setelah Register, akan diarahkan ke halaman topic
+
+
+
+
+3. 
